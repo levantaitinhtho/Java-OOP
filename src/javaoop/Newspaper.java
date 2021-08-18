@@ -1,4 +1,4 @@
-package JavaOOP;
+package javaoop;
 import java.util.Scanner;
 public class Newspaper extends Document {
     private String releaserdate;

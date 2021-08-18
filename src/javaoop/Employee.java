@@ -1,5 +1,5 @@
-package JavaOOP;
-import java.util.Scanner;
+package javaoop;
+
 class Employee {
     protected String name;
     protected String gender;

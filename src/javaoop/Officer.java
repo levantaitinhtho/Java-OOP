@@ -1,4 +1,4 @@
-package JavaOOP;
+package javaoop;
 
 public class Officer extends Employee {
     private int department;

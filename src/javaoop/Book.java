@@ -1,4 +1,4 @@
-package JavaOOP;
+package javaoop;
 import java.util.Scanner;
 public class Book extends Document {
     private String author;

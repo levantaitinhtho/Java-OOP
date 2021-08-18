@@ -1,4 +1,5 @@
-package JavaOOP;
+package javaoop;
+import java.util.ArrayList;
 import java.util.Scanner;
 public class Document {
     protected String id;
@@ -37,10 +38,24 @@ public class Document {
     public void setExport(int export) {
         this.export = export;
     }
-    public void getInforDocument(){
+    public void getInforDocument(ArrayList<Document> documentArrayList){
+        System.out.println("-------------------------------------------");
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter ID: ");
-        id = sc.nextLine();
+        while (true){
+            id = sc.nextLine();
+            boolean check = false;
+            for ( int i=0;i<= documentArrayList.size();i++){
+                if(documentArrayList.get(i).getId().equals(id)){
+                    check = true;
+                }
+            }
+            if(!check){
+                break;
+            }else{
+                System.err.println("Enter Again: ");
+            }
+        }
         System.out.println("Enter Producer: ");
         producer = sc.nextLine();
         System.out.println("Enter Export: ");

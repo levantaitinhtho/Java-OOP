@@ -1,4 +1,4 @@
-package JavaOOP;
+package javaoop;
 
 public class Option {
     public static void main(String[] args) {
