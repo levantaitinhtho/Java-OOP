@@ -1,4 +1,4 @@
-package JavaOOP;
+package javaoop;
 
 public class Worker extends Employee {
     private String factory;
